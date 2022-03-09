@@ -19,9 +19,9 @@ resource "aws_s3_bucket_object" "object" {
   source = "dummy.txt"
 
 }
-resource "aws_s3_bucket_object" "object1" {
-bucket = aws_s3_bucket.preettfbkt5524.id
-for_each = fileset("1.txt", "2.txt")
-key = each.value
-source = "${each.value}"
-}
+#resource "aws_s3_bucket_object" "object1" {
+#bucket = aws_s3_bucket.preettfbkt5524.id
+#for_each = fileset("1.txt", "2.txt")
+#key = each.value
+#source = "${each.value}"
+#}
