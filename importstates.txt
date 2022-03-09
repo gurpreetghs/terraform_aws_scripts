@@ -1,0 +1,2 @@
+tf import aws_s3_bucket.preettfbkt5524 preettfbkt
+
